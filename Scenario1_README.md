@@ -19,8 +19,8 @@ Automated **tree species mapping from drone orthomosaics** using **self-supervis
 ## Quick Start
 
 ```bash
-git clone https://github.com/jayakrishnascientist/Forest-tree-crown-species-classification-geo-AI.git
-cd Forest-tree-crown-species-classification-geo-AI
+git clone https://github.com/jayakrishnascientist/automated_drone_tree_species_classification_geo_ai.git
+cd automated_drone_tree_species_classification_geo_ai
 pip install -r requirements.txt
 python pipelines/scenario1_pipeline_full.py
 ```
@@ -162,8 +162,8 @@ tree-species-mapping-dinov2/
 ## Installation
 
 ```bash
-git clone https://github.com/jayakrishnascientist/Forest-tree-crown-species-classification-geo-AI.git
-cd Forest-tree-crown-species-classification-geo-AI
+git clone https://github.com/jayakrishnascientist/automated_drone_tree_species_classification_geo_ai.git
+cd automated_drone_tree_species_classification_geo_ai
 pip install -r requirements.txt
 ```
 
