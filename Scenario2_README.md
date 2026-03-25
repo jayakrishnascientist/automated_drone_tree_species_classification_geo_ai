@@ -1,6 +1,8 @@
 # Forest Tree Crown Species Classification — Scenario 2
 ## Unsupervised Pipeline (No Ground Truth Required)
 
+## **Note: To deploy this task go to (automated_drone_tree_species_classification_geo_ai/pipeline/scenario_2) and acess the readme file**
+
 Automated **tree species mapping from drone orthomosaics** using **self-supervised DINOv2 embeddings and unsupervised clustering**, with species labels assigned through **human visual inspection** of cluster image folders — no pre-labeled training data needed.
 
 ---
@@ -209,8 +211,8 @@ tree-species-mapping-dinov2/
 ## Installation
 
 ```bash
-git clone https://github.com/jayakrishnascientist/Forest-tree-crown-species-classification-geo-AI.git
-cd Forest-tree-crown-species-classification-geo-AI
+git clone (https://github.com/jayakrishnascientist/automated_drone_tree_species_classification_geo_ai.git)
+cd automated_drone_tree_species_classification_geo_ai/pipeline/scenario2
 pip install -r requirements.txt
 ```
 
