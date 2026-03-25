@@ -20,6 +20,8 @@ Only two inputs are required (Drone RGB Orthomosaic + Tree crown polygon) automa
 
 The framework integrates **computer vision, geospatial processing, and deep learning** to generate spatial outputs that can be visualized directly in **QGIS or Google Earth**.
 
+***note: After cloning project use path (pipeline/scenario_2) at present it works fine, remaining under construction (semisupervised etc)***
+
 ---
 # Pipeline Overview
 
