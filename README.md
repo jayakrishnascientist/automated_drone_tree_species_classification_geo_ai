@@ -213,9 +213,9 @@ Visualization in QGIS / Google Earth
 Clone the repository:
 
 ```bash
-git clone https://github.com/jayakrishnascientist/Forest-tree-crown-species-classification-geo-AI.git
+git clone https://github.com/jayakrishnascientist/automated_drone_tree_species_classification_geo_ai.git
 
-cd Forest-tree-crown-species-classification-geo-AI
+cd automated_drone_tree_species_classification_geo_ai
 ```
 
 Install dependencies:
