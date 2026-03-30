@@ -4,8 +4,8 @@
 
 Automated **tree species mapping from high-resolution drone orthomosaics** using **Deep learning foundation models** and translation of species labels to Google Earth for geospatial investigation. 
 
-<img width="800" height="1300" alt="pipeline_diagram" src="https://github.com/user-attachments/assets/02200020-8138-4e7c-ad44-faaa104c40ea" />
 
+<img width="612" height="916" alt="overview" src="https://github.com/user-attachments/assets/9b63f18e-4f02-4ae5-a12a-5f8ea9c32bfa" />
 
 
 This repository provides an automated pipeline aimed at classifying multiple forest tree species using drone data.
