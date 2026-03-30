@@ -556,7 +556,7 @@ COLOR_PALETTE = [
 
 1. **Open project**:
    ```bash
-   cd tree-crown-pipeline
+   cd automated_drone_tree_species_classification_geo_ai
    code .
    ```
 
