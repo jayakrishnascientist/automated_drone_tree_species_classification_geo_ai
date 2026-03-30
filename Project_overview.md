@@ -315,8 +315,9 @@ Google Earth — species_map.kmz
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/tree-crown-pipeline.git
-cd tree-crown-pipeline
+git clone https://github.com/automated_drone_tree_species_classification_geo_ai.git
+
+cd automated_drone_tree_species_classification_geo_ai
 ```
 
 ### 2. Set Up Environment
