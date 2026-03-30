@@ -304,7 +304,7 @@ Google Earth — species_map.kmz
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8+
 - CUDA-capable GPU (recommended) or CPU
@@ -392,9 +392,10 @@ python tree_crown_pipeline.py --step 1 --config config.py
 python tree_crown_pipeline.py --step 2 --config config.py
 python tree_crown_pipeline.py --step 3 --config config.py   # optional
 python tree_crown_pipeline.py --step 4 --config config.py
-## 📁 Input Data Structure
 
 ```
+##  Input Data Structure
+
 your_data/
 ├── orthomosaics/
 │   ├── site1.tif
