@@ -27,7 +27,7 @@ The framework integrates **computer vision, geospatial processing, and deep lear
 
 4-Feature clustering and evaluation
 
-5-Training of a species classification model
+5-Asssigning the cluster labels of tree species
 
 6-Automated prediction of species for all crowns
 
@@ -157,6 +157,55 @@ These metrics are combined into a ranked table to select the optimal k.
 
 
 ---
+
+### Step 2A: Load Species Mapping
+
+- Loads the user-defined cluster-to-species mapping
+- Assigns species labels to all crowns
+
+---
+
+### Step 2C: Generate polygon_species.csv
+
+- Creates final mapping file containing:
+- polygon_id
+- species_name
+
+---
+
+### Step 3: KMZ Export
+
+- Exports results as KMZ for visualization
+- Includes crown polygons with species labels
+
+**Compatible with:**
+- Google Earth
+- QGIS
+
+---
+
+## Outputs
+
+- KMZ file (species visualization)
+- GeoJSON (optional)
+- CSV (polygon to species mapping)
+- Species distribution charts (optional)
+
+---
+
+## Learning Paradigm
+
+This pipeline integrates three approaches:
+
+- **Self-supervised learning**
+- DINOv2 extracts meaningful visual features without labels
+
+- **Unsupervised learning**
+- K-Means groups similar tree crowns
+
+- **Human-in-the-loop**
+- Manual labeling assigns semantic meaning to clusters
+
 
 #  Repository Structure
 
@@ -607,3 +656,31 @@ MODEL_NAME = 'vit_small_patch14_dinov2.lvd142m'
 # Reduce PCA components
 PCA_COMPONENTS = 20
 ```
+
+---
+
+## Key Advantages
+
+- No labeled dataset required initially
+- Scalable to large geographic areas
+- Flexible across different forest types
+- Combines AI automation with expert validation
+
+---
+
+## Summary
+
+The pipeline extracts tree crowns from drone imagery, encodes them into feature vectors using DINOv2, clusters them using K-Means, and assigns species labels through human inspection to generate a geospatial species distribution map.
+
+---
+
+## Usage (High-Level)
+
+1. Provide orthomosaic and crown polygons
+2. Run cropping and feature extraction
+3. Perform clustering and select optimal k
+4. Inspect clusters and assign species labels
+5. Generate final outputs and visualize in GIS tools
+
+---
+
