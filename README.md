@@ -211,48 +211,7 @@ This pipeline integrates three approaches:
 
 ```
 tree-species-mapping-dinov2/
-│
-├── docs/                      # Documentation and figures
-│
-├── examples/                  # Example inputs and outputs
-│   ├── google_earth_view/
-│   │   └── species_advanced_map_fixed.kml
-│   ├── predictions.csv
-│   ├── s3_tree.geojson
-│   └── s3_tree.tif
-│
-├── models/
-│   └── best_dinov2_linear.pth
-│
-├── notebooks/
-│   ├── supervised/
-│   │   ├── 01_crop_tree_crowns.ipynb
-│   │   ├── 02_species_prediction_dinov2.ipynb
-│   │   ├── 03_model_evaluation.ipynb
-│   │   ├── 04_export_geojson_kml.ipynb
-│   │   └── tree_species_full_pipeline.ipynb
-│   │
-│   └── unsupervised/
-│       └── tree_species_unsupervised_pipeline.ipynb
-│
-├── outputs/                   # Generated outputs
-│
-├── pipelines/
-│   ├── run_supervised_pipeline_full.py
-│   └── run_unsupervised_pipeline_full.py
-│
-├── src/
-│   ├── crown_cropping.py
-│   ├── feature_extraction_dinov2.py
-│   ├── feature_extraction_resnet.py
-│   ├── feature_extraction_vit.py
-│   ├── clustering.py
-│   ├── classifier_training.py
-│   ├── prediction.py
-│   ├── geojson_to_kml.py
-│   ├── labeling_sheet_creation.py
-│   └── utils.py
-│
+
 ├── requirements.txt
 └── README.md
 ```
