@@ -210,10 +210,28 @@ This pipeline integrates three approaches:
 #  Repository Structure
 
 ```
-tree-species-mapping-dinov2/
-
+automated_drone_tree_species_classification_geo_ai/
+|
+├── QGIS_QField_Tutorial.md
+├── README.md
+├── config.py
+├── examples
+│   ├── S3C.tif
+│   └── s3_tree.geojson
 ├── requirements.txt
-└── README.md
+├── src
+│   ├── classifier_training.py
+│   ├── clustering.py
+│   ├── crown_cropping.py
+│   ├── feature_extraction_dinov2.py
+│   ├── feature_extraction_resnet.py
+│   ├── feature_extraction_vit.py
+│   ├── geojson_to_kml.py
+│   ├── labeling_sheet_creation.py
+│   ├── prediction.py
+│   └── utils.py
+├── tree_crown_pipeline.ipynb
+└── tree_crown_pipeline.py
 ```
 
 ---
